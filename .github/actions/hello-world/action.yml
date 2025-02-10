@@ -1,0 +1,12 @@
+name: "Hello World Action"
+description: "A simple composite action that prints a hello message"
+inputs:
+  message:
+    description: "The message to print"
+    required: false
+    default: "Hello, World from pet-target!"
+runs:
+  using: "composite"
+  steps:
+    - name: Print the message
+      run: echo "${{ inputs.message }}"
