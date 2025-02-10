@@ -9,4 +9,5 @@ runs:
   using: "composite"
   steps:
     - name: Print the message
+      shell: bash
       run: echo "${{ inputs.message }}"
