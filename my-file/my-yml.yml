@@ -1,0 +1,10 @@
+services:
+  app-1:
+    enabled: true
+    version: 0.1
+  app-2:
+    enabled: true
+    version: 0.1
+  app-3:
+    enabled: true
+    version: 0.1
